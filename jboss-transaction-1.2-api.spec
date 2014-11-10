@@ -1,9 +1,10 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global namedreltag .Alpha3
 %global namedversion %{version}%{?namedreltag}
 
 Name:             jboss-transaction-1.2-api
 Version:          1.0.0
-Release:          0.3%{namedreltag}
+Release:          0.4%{namedreltag}
 Summary:          Transaction 1.2 API
 License:          CDDL or GPLv2 with exceptions
 Url:              http://www.jboss.org
