@@ -3,7 +3,7 @@
 
 Name:             jboss-transaction-1.2-api
 Version:          1.0.0
-Release:          0.3%{namedreltag}%{dist}
+Release:          0.3%{namedreltag}
 Summary:          Transaction 1.2 API
 License:          CDDL or GPLv2 with exceptions
 Url:              http://www.jboss.org
