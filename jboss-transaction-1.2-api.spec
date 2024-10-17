@@ -7,7 +7,7 @@ Version:          1.0.0
 Release:          0.4%{namedreltag}
 Summary:          Transaction 1.2 API
 License:          CDDL or GPLv2 with exceptions
-Url:              http://www.jboss.org
+Url:              https://www.jboss.org
 Source0:          https://github.com/jboss/jboss-transaction-api_spec/archive/jboss-transaction-api_1.2_spec-%{namedversion}.tar.gz
 
 BuildRequires:    jboss-parent
