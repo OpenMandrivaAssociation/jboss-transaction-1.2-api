@@ -15,6 +15,9 @@ BuildRequires:    jboss-interceptors-1.2-api
 
 BuildArch:        noarch
 BuildRequires:    python
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 
 %description
