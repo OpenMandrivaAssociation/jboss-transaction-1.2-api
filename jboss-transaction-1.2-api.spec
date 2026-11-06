@@ -4,13 +4,13 @@ Name:             jboss-transaction-1.2-api
 Version:          1.1.1.Final
 Release:          1
 Summary:          Transaction 1.2 API
+Group:            Development/Java
 License:          CDDL or GPLv2 with exceptions
 Url:              https://github.com/jboss/jboss-transaction-api_spec
 Source0:          https://github.com/jboss/jboss-transaction-api_spec/archive/refs/tags/jboss-transaction-api_1.2_spec-%{version}.tar.gz
 
 BuildRequires:    jboss-parent
-BuildRequires:    felix-osgi-foundation
-BuildRequires:    felix-parent
+BuildRequires:    cdi-api
 BuildRequires:    jboss-interceptors-1.2-api
 
 BuildArch:        noarch
